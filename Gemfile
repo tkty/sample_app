@@ -27,10 +27,10 @@ end
 gem 'jquery-rails'
 
 gem 'libv8'
-gem 'therubyracer'
+gem 'therubyracer', '0.11.3'
 
 group :test do
-  gem 'capybara'
+  gem 'capybara', '1.1.2'
 end
 
 group :production do
