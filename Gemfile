@@ -37,6 +37,8 @@ gem 'therubyracer', '0.11.3'
 group :test do
   gem 'capybara', '1.1.2'
   gem 'factory_girl_rails', '~> 1.0'
+  gem 'cucumber-rails', :require => false
+  gem 'database_cleaner'
 end
 
 group :production do
